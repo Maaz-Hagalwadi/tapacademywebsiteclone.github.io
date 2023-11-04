@@ -1,0 +1,894 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(237, 240, 240);
+    
+}
+header img{
+    width: 20px;
+    height: 20px;
+    margin: 12px;
+    margin-left: 30px;
+
+}
+
+.left-header{
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+
+
+.right-header{
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    margin-right: 30px;
+}
+nav{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    
+}
+nav ul{
+    display: flex;
+    padding: 20px;
+    list-style: none;
+}
+
+nav img{
+    display: block;
+    width: 125px;
+    height: 61px;
+    margin: 22px 54px;
+}
+nav ul li a{
+    color: black;
+    font-size: 19px;
+    display: flex;
+    position: relative;
+    padding: 12px 25px;
+    text-decoration: none;
+    /* font-weight: bold; */
+}
+nav ul button{
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+}
+.btn{
+    margin-left: 66px;
+    border: 1px solid black;
+    width: 111px;
+    height: 48px;
+    color: white;
+    
+}
+button a{
+    color: rgb(37, 23, 236);
+    text-decoration: none;
+
+}
+#navigation button:hover{
+    color: white;
+}
+nav ul li a:hover{
+    color: white;
+    
+    background-color: rgb(10, 11, 15);
+    border-radius: 16px;
+    text-decoration:underline;
+}
+nav ul button:hover{
+    background-color: powderblue;
+    border: 2px solid black;
+    
+    border-radius: 10px;
+    color: white;
+}
+button a:hover{
+    color: white;
+}
+.section {
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+}
+
+.section{
+    background-color: rgb(31, 105, 134);
+    padding: 65px 50px;
+    
+}
+.container{
+    /* border: 2px solid red; */
+    width: 49%;
+}
+
+.section h1{
+    margin: 0;
+}
+.section p{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.vid{
+    display: inline-block;
+    position: relative;
+    float: right;
+   
+    margin-top: -220px;
+}
+
+.tech{
+    color: rgb(22, 212, 22);
+    font-size: 20px;
+    margin-top: 10px;
+}
+.container h1{
+    font-size: 42px;
+    font-family: Agbalumo;
+    color: white;
+}
+.section img{
+    width: 42px;
+    height: 25px;
+}
+.section button{
+    background-color: rgb(10, 126, 172);
+    border: 1px solid white;
+    border-radius: 6px;
+    width: 194px;
+    height: 51px;
+    margin-right: 86px;
+    border: 1px solid wheat;
+    border-radius: 10px;
+}
+.section button:hover{
+    border-radius: 10px;
+    background-color: grey;
+    color: white;
+
+}
+
+.section button a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.btnimg{
+    /* border: 2px solid red; */
+    padding: 27px 3px;
+    display: inline-block;
+    
+}
+.btnimg img {
+    margin-right: 20px;
+    width: 53px;
+    height: 53px;
+    margin-bottom: -21px;
+
+}
+.btnimg a{
+    color: white;
+    text-decoration: none;
+    
+
+}
+#one{
+    color: white;
+    font-size: 22px;
+}
+.sec h1{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(23, 28, 66);
+}
+.sec iframe{
+    width: 40%;
+    height: 250px;
+    margin: 2px 59px;
+}
+.sec2 iframe{
+    width: 40%;
+    height: 250px;
+    margin: 2px 59px;
+}
+.sec h1 i{
+    color: rgb(237, 200, 12);
+}
+.sec h1 i:hover{
+    color:rgb(23, 28, 66); ;
+}
+.sec p{
+    text-align: center;
+    padding: 2px 94px;
+    font-size: 18px;
+}
+.sec video{
+    padding: 38px 59px;
+
+}
+.left-1{
+    margin-top: 52px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    margin-left: 188px;
+}
+.mid-1{
+    /* border: 2px solid red; */
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 540px;
+    margin-top: -142px;
+    width: 202px;
+    
+}
+.right-1{
+    margin-top: -111px;
+    /* border: 2px solid red; */
+    display: block;
+    margin-left: 980px;
+    width: 200px;
+}
+.sec-2 h1{
+    text-align: center;
+    font-size: 30px;
+}
+.sec-2 h4{
+    font-size: 20px;
+    text-align: center;
+}
+.sec-3{
+    /* border: 2px solid red; */
+    display: inline-block;
+    width:80%;
+    margin-left: 110px;
+    background-color: rgb(5, 84, 114);
+    border-radius: 8px;
+}
+.container-2{
+    padding: 14px 43px;
+    width: 60%;
+}
+.container-2 #p-grp{
+    color: #07f907;
+    font-size: 19px;
+}
+.container-2 h1{
+    color: white;
+    font-size: 33px;
+}
+.container-2 p{
+    color: white;
+    font-size: 21px;
+}
+#btn-4{
+    float: right;
+    display: flex;
+    /* border: 2px solid red; */
+    padding: 15px 38px;
+    margin: -92px 63px;
+    background-color: rgb(10, 126, 172);
+    border: 1px solid white;
+    border-radius: 6px;
+}
+#btn-4 a{
+    color: white;
+    font-size: 19px;
+}
+.sec-5{
+    /* border: 2px solid red; */
+    margin: 75px 72px;
+}
+.sec-5 h1{
+    text-align: center;
+    font-size: 30px;
+    color:rgb(23, 28, 66);
+}
+.sec-5 h1 i{
+    color: rgb(237, 200, 12); 
+}
+.sec-5 h1 i:hover{
+    color:rgb(23, 28, 66);
+    
+}
+.sec-5 p{
+    text-align: center;
+    font-size: 22px;
+    color: #3f3b3b;
+}
+.sec-5 img{
+    width: 99%;
+}
+.sec-5 #img{
+    width: 99%;
+}
+.sec-6{
+    /* border: 2px solid red; */
+}
+.sec-6 h1{
+    text-align: center;
+    font-size: 40px;
+    color:rgb(23, 28, 66);;
+}
+.sec-6 h1 i{
+    color: rgb(237, 200, 12); 
+}
+.sec-6 h1 i:hover{
+    color:rgb(23, 28, 66); ;
+}
+.sec-6 p{
+    text-align: center;
+    font-size: 22px;
+    color:  #3f3b3b;
+    padding: 2px 99px;
+}
+.sec-7{
+    /* border: 2px solid red; */
+    margin: 65px 164px;
+}
+.sec-7 h1{
+    text-align: center;
+    font-size: 32px;
+    color:rgb(56, 67, 152); 
+}
+.sec-8{
+    border: 1px solid white;
+    background-color: rgb(5, 84, 114);
+}
+.sec-8 h1{
+    text-align: center;
+    font-size: 50px;
+    color: #9a9393;
+}
+.sec-8 h2{
+    text-align: center;
+    color: white;
+    font-size: 34px;
+}
+.sec-8 h2 i{
+    color: rgb(237, 200, 12); 
+}
+.sec-8 h2 i:hover{
+    color: rgb(23, 28, 66); 
+}
+.sec-8 #prag{
+    color: white;
+    /* background-color: white; */
+    text-align: center;
+    margin: 19px 76px;
+    font-size: 18px;
+}
+.course1{
+    /* background-color: rgb(5, 84, 114); */
+}
+.form1{
+    /* border: 2px solid red; */
+    width: 41%;
+    height: 600px;
+    padding: 78px 0px;
+    margin: 33px 99px;
+    background-color: white;
+    border-radius: 14px;
+}
+.form1 h1{
+    color: rgb(23, 28, 66);
+
+}
+.form1 h1 i{
+    color: rgb(237, 200, 12) ;
+}
+.form1 h1 i:hover{
+    color: rgb(23, 28, 66) ;
+}
+.form1 #para{
+    color: rgb(237, 200, 12) ;
+    margin: 0px 57px;
+    color: #9a9393;
+    font-size: 17px;
+}
+.form1 #para-1{
+    margin: 0px 57px;
+    padding: 36px;
+    color: rgb(51 53 68);;
+}
+.form1 #btn-4{
+    margin: -21px 170px;
+}
+.side img{
+    width: 371px;
+    height: 332px;
+    float: right;
+    margin: -535px 104px;
+}
+.sec-9{
+    /* border: 2px solid red; */
+}
+.sec-9 h1{
+    text-align: center;
+    color:  rgb(23, 28, 66);
+    font-size: 38px;
+}
+.sec-9 h1 i{
+    color:  rgb(237, 200, 12);
+}
+.sec-9 h1 i:hover{
+    color: rgb(23, 28, 66) ;
+}
+.sec-9 img{
+    width: 30%;
+    height: 397px;
+    padding: 0px 18px;
+    margin: 1px 1px;
+}
+.sec-9 h2{
+    display: inline-block;
+    /* border: 2px solid red; */
+    width: 20%;
+    text-align: center;
+    margin-left: 71px;
+    font-size: 25px;
+    color:  rgb(23, 28, 66);
+
+}
+.sec-9 h2:hover{
+    color:  white;
+    background-color: gray;
+    border-radius: 10px;
+
+}
+.sec-9 h3{
+    display: inline-block;
+    /* border: 2px solid red; */
+    width: 24%;
+    text-align: center;
+    margin-left: 158px;
+    font-size: 25px;
+    color: rgb(23, 28, 66);
+
+}
+.sec-9 h3:hover{
+    color:  white;
+    background-color: gray;
+    border-radius: 10px;
+
+}
+.sec-9 h4{
+    display: inline-block;
+    /* border: 2px solid red; */
+    width: 22%;
+    text-align: center;
+    margin-left: 133px;
+    font-size: 25px;
+    color: rgb(23, 28, 66);
+}
+.sec-9 h4:hover{
+    color:  white;
+    background-color: rgb(72, 68, 68);
+    border-radius: 10px;
+
+}
+.sec-10{
+    border: 2px solid rgb(175, 155, 155);
+}
+.left-4{
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 20%;
+    margin: 65px 98px;
+    text-align: center;
+    color: white;
+
+}
+.left-4 img{
+    width: 40px;
+    height: 40px;
+    margin-right: 151px;
+}
+.left-4 #t4{
+    margin: 2px 4px;
+}
+.mid-4{
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 20%;
+
+}
+.right-4{
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 20%;
+
+}
+.rightend-4{
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 20%;
+
+}
+.field{
+    
+   background-color:  rgb(68 67 76);
+    color: white;
+}
+
+.field a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+/* Course page */
+.course1{
+    /* border: 2px solid red; */
+    height: 900px;
+}
+.cleft{
+    /* border: 2px solid rgb(20, 20, 20); */
+    /* background-color: #cdd6e1; */
+    /* color: white; */
+    width: 28%;
+    height: 750px;
+    margin: 77px 200px;
+    
+}
+.cleft h1{
+    text-align: center;
+
+}
+.cleft p{
+    text-align: justify;
+    margin: 2px 23px;
+}
+.cleft #p1{
+    width: 100%;
+    height: 300px;
+}
+.cleft .lc{
+    width: 40px;
+    height: 40px;
+}
+.lms{
+    display: flex;
+    margin: 2px 3px;
+    /* border: 2px solid rebeccapurple; */
+}
+.book{
+    display: flex;
+    margin: 2px 3px;
+    /* border: 2px solid rebeccapurple; */
+}
+.book img{
+    width: 40px;
+    height: 40px;
+
+}
+.java{
+    display: flex;
+    margin: 2px 3px;
+    /* border: 2px solid rebeccapurple; */
+
+}
+.java img{
+    width: 44x;
+    height: 40px;
+}
+.java h4{
+    margin: 11px 21px;
+}
+.wtsp{
+    display: flex;
+    margin: 2px 3px;
+    /* border: 2px solid rebeccapurple; */
+}
+.wtsp img{
+    width: 40px;
+    height: 40px;
+
+}
+.wtsp h4{
+    margin: 11px 21px;
+}
+.book h4{
+    margin: 11px 21px;
+}
+.lms h4{
+    margin: 11px 21px;
+}
+.cright{
+    /* border: 2px solid purple; */
+    width: 28%;
+    height: 750px;
+    margin: -830px 760px;
+}
+.cright h1{
+    text-align: center;
+    padding: 2px 3px;
+}
+.cright p{
+    text-align: justify;
+    margin: 2px 23px;
+}
+.cright #c4{
+    width: 100%;
+    height: 300px;
+}
+.cright .lc{
+    width: 40px;
+    height: 40px;
+}
+#btnlms{
+    margin: 17px 135px;
+    padding: 4px 10px;
+    width: 127px;
+    height: 40px;
+    font-size: 17px;
+    background-color: rgb(10, 126, 172);
+    border-radius: 6px;
+    border: 1px solid white;
+}
+#btnlms a{
+    color: white;
+    
+}
+
+/* student reviews */
+
+.reviewimgs img{
+    width: 30%;
+    height: 400px;
+    margin: -16px 18px;
+}
+.s-rev1 {
+    /* border: 2px solid red; */
+    margin: 31px 0px;
+}
+
+.s-rev1 h1{
+    text-align: center;
+    font-size: 37px;
+    color:  rgb(23, 28, 66) ;
+
+}
+.s-rev1 h1 i{
+   
+     color:  rgb(237, 200, 12); ;
+
+}
+.s-rev1 h1 i:hover{
+   
+    color:  rgb(23, 28, 66);
+
+}
+
+.s-rev1 #vid{
+    width: 40%;
+    height: 287px;
+    /* margin: 17px 19px; */
+    padding: 42px 48px;
+}
+.btn-str{
+    margin: 17px 579px;
+    padding: 4px 10px;
+    width: 127px;
+    height: 40px;
+    font-size: 17px;
+    background-color: rgb(10, 126, 172);
+    border-radius: 6px;
+    border: 1px solid white;
+}
+.btn-str a{
+    color: white;
+}
+.sec10{
+    border: 2px solid rgb(20, 9, 9);
+    background-color: rgb(68 67 76);
+}
+.footerleft{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: relative;
+    margin: 39px 108px;
+}
+.footerright{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: relative;
+    margin: 39px 108px;
+}
+.footerright h1{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+.footerright a{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    padding: 15px 3px;
+    color: white;
+}
+.footerright a:hover{
+    background-color: grey;
+    color: white;
+    border-radius: 20px;
+    text-decoration: underline;
+    color: black;
+}
+.footermid{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: relative;
+    margin: 39px 108px;
+}
+.footermid h1{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+.footermid a{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    padding: 15px 3px;
+    color: white;
+}
+.footermid a:hover{
+    background-color: grey;
+    color: white;
+    border-radius: 20px;
+    text-decoration: underline;
+    color: black;
+}
+.footerleft h1{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+.footerleft h3{
+    color: white;
+    font-size: 15px;
+}
+.footerleft h2{
+    font-size: 17px;
+    color: white;
+    padding-top: 65px;
+}
+.loc{
+    display: flex;
+    width: 45px;
+    height: 40px;
+}
+.loc p{
+    color: rgb(249, 246, 246);
+    font-size: 16px;
+    margin: 11px 7px;
+}
+.loc-2{
+    display: flex;
+    width: 45px;
+    height: 40px;
+}
+.loc-2 p{
+    color: rgb(249, 246, 246);
+    font-size: 16px;
+    margin: 11px 7px;
+}
+.call{
+    display: flex;
+    width: 45px;
+    height: 40px;
+}
+.call p{
+    color: rgb(249, 246, 246);
+    font-size: 16px;
+    margin: 11px 7px;
+}
+.call img{
+    width: 31px;
+    height: 18px;
+    margin: 9px 13px;
+}
+.mail{
+    display: flex;
+    width: 45px;
+    height: 40px;
+}
+.mail p{
+    color: rgb(249, 246, 246);
+    font-size: 16px;
+    margin: 11px 7px;
+}
+.mail img{
+    width: 32px;
+    height: 22px;
+    margin: 8px 11px;
+}
+.footertopright{
+    /* border: 2px solid red; */
+    display: inline-block;
+    margin: 33px 45px;
+}
+.footerright a img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin: -17px 0;
+    position: absolute;
+    float: right;
+}
+.sec-8 #form {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sec-8 #form #btn-4 {
+    background-color: rgb(10, 126, 172);
+    border: 1px solid white;
+    border-radius: 6px;
+    margin: 20px 0;
+    padding: 10px 20px; /* Added padding for the button */
+    color: white; /* Text color for the button */
+    margin: 33px 157px;
+}
+input[type="submit"]{
+    background-color: rgb(10, 126, 172);
+    border: 1px solid white;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #070a0e;
+    outline: none;
+}
+
+/* Style the labels for your form fields */
+label {
+    font-weight: bold;
+}
+
+/* Set textarea height to auto */
+textarea {
+    height: auto;
+}
+.contsec iframe{
+    width: 100%;
+    height: 690px;
+}
+.sec-0 h1{
+    text-align: center;
+    font-size: 42px;
+    color: rgb(23, 28, 66) ;
+}
+.sec-0 h1 i{
+    color: rgb(237, 200, 12)
+}
+.sec-0 h1 i:hover{
+    color:  rgb(23, 28, 66) ;
+}
